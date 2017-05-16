@@ -1,4 +1,5 @@
 # pyRecommender
+
 Get stackoverflow answers automatically based on uncaught exceptions.
 
 # Installation
@@ -40,3 +41,7 @@ by this
     LOGIN_URI = &#39;/ServiceLoginAuth&#39;...
 Source: http://stackoverflow.com/questions/19915335/python-cloud-print-authorization
 ```
+
+# How does it work?
+
+Python automatically imports the `site` package during initialization which in turn looks for `sitecustomize` which registers the custom hooks to get unhandled exceptions.
