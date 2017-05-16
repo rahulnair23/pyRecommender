@@ -4,7 +4,7 @@ Get stackoverflow answers automatically based on uncaught exceptions.
 # Installation
 
 ```
-$ git clone git@github.ibm.com:rahul-nair/pyRecommender.git
+$ git clone git@github.com:rahulnair23/pyRecommender.git
 $ cd pyRecommender
 $ export PYTHONPATH=$PYTHONPATH:$(pwd)
 ```
